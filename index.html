@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlappyBird</title>
+
+</head>
+
+<body>
+    <div id="game">
+        <div id="block"></div>
+        <div id="hole"></div>
+        <img id="character" src="/img/flappy.png" alt="flappy bird">
+        <canvas id="score" width="400" height="500"></canvas>
+    </div>
+    <button id="playButton">Play</button>
+    <div id="gameOver" style="display: none;">
+        <h2>Game Over</h2>
+        <p id="finalScore">Final Score: 0</p>
+        <button id="restartButton">Play Again</button>
+    </div>
+    
+</body>
+
+<script src="flap.js"></script>
+</html>
